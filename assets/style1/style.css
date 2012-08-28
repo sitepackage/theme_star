@@ -1,0 +1,182 @@
+.widgets {
+  background: url('widgets.png') no-repeat;
+}
+.buttons {
+  background: url('buttons.png') no-repeat;
+}
+body{
+	background: url("body_bg1.png") repeat top left;
+}
+#outer_wrapper{
+	background: url("outer_bg1.png") repeat-x top left;
+}
+#sidebar1 .nav-left li a{
+	background: url("icon_a_nav-left.png") no-repeat center left;
+}
+#sidebar1 .nav-left li a:hover{
+	background: url("icon_ahover_nav-left.png") no-repeat center left;
+}
+#sidebar1 .type li a{
+	background: url("icon_type_a_nav-left.png") no-repeat center left;
+}
+#sidebar1 .type li a:hover{
+	background: url("icon_type_ahover_nav-left.png") no-repeat center left;
+}
+.subcategory a,
+.subcategory a:hover{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -border-radius: 3px;
+  border-radius: 3px;
+}
+/*------------------- Font Color --------------------*/
+body,
+#header,
+#sidebar1,
+#main,
+#footer,
+#sidebar1 .topic2,
+#main .topic1,
+#main #product .topic1 a,
+#main #product .topic1 a:hover,
+#frontpage .column .topic2,
+#footer .socials_wrapper .topic1,
+#discussion .listing td a,
+#header .nav li a:hover,
+#header .cart_status a span,
+#header .logged_in li a:hover{
+	color:#212121;
+}
+#collection .subcategory a:hover,
+#header .account,
+#sidebar1 .collection a,
+#sidebar1 .collection li a,
+#sidebar1 .list li a:hover,
+#header .logged_in li a,
+#header .cart_status a span{
+	color:#dddddd;
+}
+#header .nav li a,
+#header .cart_status a:hover span,
+#discussion .listing th,
+#cart .items th,
+#header .account .button,
+#header .account .signup{
+	color:#fff;
+}
+#header a,
+#header li a,
+#sidebar1 a,
+#sidebar1 li a,
+#main a,
+#main li a,
+#footer a,
+#footer li a,
+#blog .details .topic2 a,
+#cart_form .fl,
+#blog .author,
+#article .author,
+#header .site_slogan,
+#discussion .breadcrumb a,
+#discussion .message a,
+#main .column .bullets small,
+#comments li .meta span,
+#main .column li a:hover,
+#footer a:hover,
+#header .account .logged_in  li a:hover,
+#discussion .listing td a:hover,
+#discussion .original_post .fl{
+	color:#777;
+}
+#sidebar1 .nav-left li a,
+#main .column li a,
+#footer .copyright a,
+#footer .copyright a:hover,
+#collection li a,
+#header .account .signup:hover{
+	color:#444;
+}
+#header a:hover,
+#header li a:hover,
+#sidebar1 a:hover,
+#sidebar1 li a:hover,
+#main a:hover,
+#main li a:hover,
+#footer a:hover,
+#footer li a:hover,
+#header .logo_wrapper .site_name,
+#blog .details .topic2 a:hover,
+#sidebar1 .stats dd,
+#collection .grid .price,
+#discussion .breadcrumb a:hover,
+#collection .subcategory a,
+#frontpage #collection .topic1,
+#frontpage #collection li a:hover,
+#sidebar1 .collection a:hover,
+#sidebar1 .collection li a:hover,
+#sidebar1 .nav-left li a:hover,
+#cart .summary .total_price,
+#blog .excerpt a,
+#blog .excerpt a:hover,
+#sidebar1 .nav-left .active a,
+#frontpage .column li a:hover,
+#header .account .logged_in em{
+	color:#f972a1;
+}
+/*------------------- Background Color --------------------*/
+#collection .subcategory a{
+  background-color:#ececec;
+}
+#discussion .listing th,
+#cart .items th{
+	background-color:#f972a1;
+}
+#header .account .button{
+  background-color:#a9a9a9;	
+}
+#header .nav li a:hover,
+#header .logged_in li a:hover,
+#header .account fieldset a:hover.signup{
+	background-color:#eeeeee;
+}
+#collection .subcategory a:hover{
+  background-color:#f972a1;
+}
+#discussion .page .padding,
+#comments li .meta{
+	background-color:#fef3f7;
+}
+#discussion .listing .hover{
+	background-color:#fff7fa;
+}
+#sidebar1 .category_container {
+	background-color:#010101;
+}
+#header .account .button{
+	background-color:#a9a9a9;
+}
+
+/*------------------- Border Color --------------------*/
+#frontpage .column li{
+	border-bottom:1px dashed #ffcfe0;
+}
+#cart .items td,
+#blog li,
+#discussion .listing td{
+	border-bottom:1px dashed #ffcfe0;
+}
+#sidebar1{
+	border-top:2px dashed #9d9d9d;
+}
+#sidebar1 .collection{
+	border-bottom:2px dashed #9d9d9d;
+}
+#header  .nav{
+	border-right:1px dashed #7c7c7c;
+}
+#header .cart_status{
+	border-left:1px dashed #7c7c7c;
+}
+.bx-pager a:hover{
+	color:#fff;
+}
