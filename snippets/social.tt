@@ -1,4 +1,4 @@
-<div style="float: left; margin: 0 2px 0 0">
+<div style="float: left; margin: 0 2px 0 0; width: 110px">
   <a name="fb_share" type="button_count" share_url="[% req.uri %]" href="http://www.facebook.com/sharer.php"></a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 </div>
 <div style="float: left; margin: 0 2px">
@@ -17,4 +17,10 @@
     })();
   </script>
 </div>
+[%- if product.featured_image.src %]
+<div style="float: left; margin: 0 2px">
+  <a href="http://pinterest.com/pin/create/button/?url=[% req.uri | uri %]&media=[% product.featured_image.src | image_uri | uri %]&description=[% product.content | strip_html | uri %]" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+</div>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+[%- end %]
 <br style="clear: both" />
