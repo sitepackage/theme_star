@@ -929,6 +929,7 @@ form .hint_area {
 #pagination a:hover {
   color: #927532;
   border: 1px solid #927532;
+  border-radius:0;
 }
 #pagination .disabled,
 #pagination .hidden{
