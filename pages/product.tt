@@ -64,11 +64,13 @@
             [%- end %]
           </li>
           [%- if  !settings.ecommerce_enabled %]
+          [%- if product.available %]               
           <li>
             <div class="quantity">[% 'How many' | loc %]? <input type="text" name="quantity" class="text" size="3" maxlength="3" value="1" /></div>
             <div class="buy"><input type="submit" class="buttons add_to_cart" value="" title="[% 'Add to Cart' | loc %]" /></div>
             <div class="clear"></div>
           </li>
+          [%- end %]          
           [%- end %]
           <li>
             [% product.type | link_to_type_html %]
